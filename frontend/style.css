@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#task-form,
+#task-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.task {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  position: relative;
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task p {
+  margin: 5px 0;
+}
+
+.task button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+}
+
+.task button:hover {
+  background-color: #c82333;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(10, 212, 71);
+}
